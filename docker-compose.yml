@@ -1,0 +1,70 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:?set POSTGRES_DB in .env}
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  collector:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      API_KEY: ${API_KEY:?set API_KEY in .env}
+      HOST: 0.0.0.0
+      PORT: 8787
+      PGHOST: postgres
+      PGUSER: ${POSTGRES_USER:?set POSTGRES_USER in .env}
+      PGPASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      PGDATABASE: ${POSTGRES_DB:?set POSTGRES_DB in .env}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./.sessions:/app/.sessions
+    ports:
+      - "127.0.0.1:${PORT:-8787}:8787"
+
+  poller:
+    build: .
+    restart: unless-stopped
+    command: ["npm", "run", "poll"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      PGHOST: postgres
+      PGUSER: ${POSTGRES_USER:?set POSTGRES_USER in .env}
+      PGPASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      PGDATABASE: ${POSTGRES_DB:?set POSTGRES_DB in .env}
+      POLL_BOVADA: "false"
+      POLL_SXBET: "false"
+      # Action's complete scoreboard is the broadest verified structured
+      # source in this deployment.  Its book IDs stay separated downstream.
+      POLL_ACTIONNETWORK: "true"
+      POLL_YAHOO_ODDS: "true"
+      POLL_BESTFIGHTODDS: "true"
+      POLL_FIGHTODDS: "true"
+      POLL_EVENTS_INTERVAL_MS: "60000"
+      POLL_LIVE_INTERVAL_MS: "15000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./.sessions:/app/.sessions
+
+volumes:
+  postgres_data:

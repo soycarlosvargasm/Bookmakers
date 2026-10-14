@@ -1,0 +1,9 @@
+node_modules
+dist
+.audit
+.env
+.sessions
+.git
+tests
+*.dump
+*.log

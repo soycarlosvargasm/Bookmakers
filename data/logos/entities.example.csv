@@ -1,0 +1,4 @@
+betflux_id,entity_type,sport,name,country,competition,aliases,api_football_id,api_football_league_id,espn_id,thesportsdb_id,wikidata_id,fm_id
+sample:club-uuid,club,football,Club Name,Country,League Name,Club Alias|Local Name,,,,,,
+sample:national-team-uuid,national_team,football,National Team,Country,National teams,Official Team Name|Local Name,,,,,,
+sample:league-uuid,league,football,Competition Name,Country,,Competition Alias,,,,,,

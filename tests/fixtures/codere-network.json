@@ -1,0 +1,2535 @@
+[
+  {
+    "url": "https://codere-sbs-es.azurewebsites.net/getMatchMarketsForType/45349/MRES",
+    "payload": {
+      "ContentAPI": {
+        "@xmlns": "http://www.geneity.co.uk/genbet/ContentAPI",
+        "@status": "OK",
+        "@timezone": "UTC",
+        "@msg_stamp": "MjgwNDE3MTI2MzoxMDU3OmVu",
+        "@version": "1.0",
+        "@request": "get_match_markets_for_type",
+        "Sport": [
+          {
+            "@sport_code": "FOOT",
+            "@name": "Football",
+            "@disporder": "0",
+            "SBClass": [
+              {
+                "@sb_class_id": "25294",
+                "@name": "Mexico",
+                "@disporder": "-9595",
+                "SBType": [
+                  {
+                    "@sb_type_id": "45349",
+                    "@name": "Liga MX",
+                    "@disporder": "-9000",
+                    "Ev": [
+                      {
+                        "@inplay_allowed": "Y",
+                        "@status": "A",
+                        "@name": "Pumas UNAM v Atlético San Luis",
+                        "@start_time": "09/27/2026 18:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "294",
+                        "@ev_id": "13924960",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "13994964",
+                            "@br_match_id": "72055204"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "174709",
+                                "@team_order": "0",
+                                "@name": "Pumas UNAM",
+                                "@short_name": "Pumas UNAM"
+                              },
+                              {
+                                "@team_id": "174741",
+                                "@team_order": "1",
+                                "@name": "Atlético San Luis",
+                                "@short_name": "Atlético San Luis"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581581184",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Pumas UNAM",
+                                "@seln_id": "1623941901",
+                                "@team_id": "174709",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.95",
+                                    "@bet_ref": "MTYyMzk0MTkwMTo5NTAvMTAwMDo6MA",
+                                    "@frac_prc": "950/1000",
+                                    "@us_prc": "-106",
+                                    "@last_change": "09/27/2026 08:24:07"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1623941900",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.70",
+                                    "@bet_ref": "MTYyMzk0MTkwMDoyNzAwLzEwMDA6OjA",
+                                    "@frac_prc": "2700/1000",
+                                    "@us_prc": "+270",
+                                    "@last_change": "09/27/2026 08:24:07"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Atlético San Luis",
+                                "@seln_id": "1623941899",
+                                "@team_id": "174741",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.45",
+                                    "@bet_ref": "MTYyMzk0MTg5OToyNDUwLzEwMDA6OjA",
+                                    "@frac_prc": "2450/1000",
+                                    "@us_prc": "+245",
+                                    "@last_change": "09/27/2026 08:24:07"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "Y",
+                        "@status": "A",
+                        "@name": "León v FC Juárez",
+                        "@start_time": "09/28/2026 01:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "300",
+                        "@ev_id": "13927284",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "13994965",
+                            "@br_match_id": "72055206"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "174830",
+                                "@team_order": "0",
+                                "@name": "León",
+                                "@short_name": "León"
+                              },
+                              {
+                                "@team_id": "174703",
+                                "@team_order": "1",
+                                "@name": "FC Juárez",
+                                "@short_name": "FC Juárez"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581735949",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "León",
+                                "@seln_id": "1624349835",
+                                "@team_id": "174830",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.55",
+                                    "@bet_ref": "MTYyNDM0OTgzNTo1NTAvMTAwMDo6MA",
+                                    "@frac_prc": "550/1000",
+                                    "@us_prc": "-182",
+                                    "@last_change": "09/27/2026 01:04:23"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1624349834",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.25",
+                                    "@bet_ref": "MTYyNDM0OTgzNDozMjUwLzEwMDA6OjA",
+                                    "@frac_prc": "3250/1000",
+                                    "@us_prc": "+325",
+                                    "@last_change": "09/26/2026 09:13:51"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "FC Juárez",
+                                "@seln_id": "1624349833",
+                                "@team_id": "174703",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "5.25",
+                                    "@bet_ref": "MTYyNDM0OTgzMzo0MjUwLzEwMDA6OjA",
+                                    "@frac_prc": "4250/1000",
+                                    "@us_prc": "+425",
+                                    "@last_change": "09/27/2026 01:04:23"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "Y",
+                        "@status": "A",
+                        "@name": "Necaxa v America",
+                        "@start_time": "09/28/2026 03:10:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "303",
+                        "@ev_id": "13927598",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "13994966",
+                            "@br_match_id": "72055208"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "174704",
+                                "@team_order": "0",
+                                "@name": "Necaxa",
+                                "@short_name": "Necaxa"
+                              },
+                              {
+                                "@team_id": "174705",
+                                "@team_order": "1",
+                                "@name": "America",
+                                "@short_name": "America"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581765875",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Necaxa",
+                                "@seln_id": "1624435418",
+                                "@team_id": "174704",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.60",
+                                    "@bet_ref": "MTYyNDQzNTQxODoyNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2600/1000",
+                                    "@us_prc": "+260",
+                                    "@last_change": "09/27/2026 03:15:22"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1624435417",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.75",
+                                    "@bet_ref": "MTYyNDQzNTQxNzoyNzUwLzEwMDA6OjA",
+                                    "@frac_prc": "2750/1000",
+                                    "@us_prc": "+275",
+                                    "@last_change": "09/27/2026 03:15:22"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "America",
+                                "@seln_id": "1624435416",
+                                "@team_id": "174705",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.90",
+                                    "@bet_ref": "MTYyNDQzNTQxNjo5MDAvMTAwMDo6MA",
+                                    "@frac_prc": "900/1000",
+                                    "@us_prc": "-112",
+                                    "@last_change": "09/27/2026 03:15:22"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://codere-sbs-es.azurewebsites.net/getMatchMarketsForType/19157/MRES",
+    "payload": {
+      "ContentAPI": {
+        "@xmlns": "http://www.geneity.co.uk/genbet/ContentAPI",
+        "@status": "OK",
+        "@timezone": "UTC",
+        "@msg_stamp": "MjgwNDE3MTM3ODoxMDU3OmVu",
+        "@version": "1.0",
+        "@request": "get_match_markets_for_type",
+        "Sport": [
+          {
+            "@sport_code": "FOOT",
+            "@name": "Football",
+            "@disporder": "0",
+            "SBClass": [
+              {
+                "@sb_class_id": "12430",
+                "@name": "Inglaterra",
+                "@disporder": "-997",
+                "SBType": [
+                  {
+                    "@sb_type_id": "19157",
+                    "@name": "Premier League",
+                    "@disporder": "-8800",
+                    "Ev": [
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Arsenal v Leeds United",
+                        "@start_time": "10/10/2026 11:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "153",
+                        "@ev_id": "13854121",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040113",
+                            "@br_match_id": "72221292"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "176376",
+                                "@team_order": "0",
+                                "@name": "Arsenal",
+                                "@short_name": "Arsenal"
+                              },
+                              {
+                                "@team_id": "177101",
+                                "@team_order": "1",
+                                "@name": "Leeds United",
+                                "@short_name": "Leeds United"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577731533",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Arsenal",
+                                "@seln_id": "1613206373",
+                                "@team_id": "176376",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.37",
+                                    "@bet_ref": "MTYxMzIwNjM3MzozNzAvMTAwMDo6MA",
+                                    "@frac_prc": "370/1000",
+                                    "@us_prc": "-271",
+                                    "@last_change": "09/24/2026 19:42:14"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613206372",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.60",
+                                    "@bet_ref": "MTYxMzIwNjM3MjozNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "3600/1000",
+                                    "@us_prc": "+360",
+                                    "@last_change": "09/24/2026 19:42:14"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Leeds United",
+                                "@seln_id": "1613206371",
+                                "@team_id": "177101",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "8.00",
+                                    "@bet_ref": "MTYxMzIwNjM3MTo3MDAwLzEwMDA6OjA",
+                                    "@frac_prc": "7000/1000",
+                                    "@us_prc": "+700",
+                                    "@last_change": "09/24/2026 19:42:14"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Chelsea v AFC Bournemouth",
+                        "@start_time": "10/10/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "155",
+                        "@ev_id": "13854128",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040115",
+                            "@br_match_id": "72221296"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "174839",
+                                "@team_order": "0",
+                                "@name": "Chelsea",
+                                "@short_name": "Che"
+                              },
+                              {
+                                "@team_id": "178233",
+                                "@team_order": "1",
+                                "@name": "AFC Bournemouth",
+                                "@short_name": "AFC Bournemouth"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577732866",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Chelsea",
+                                "@seln_id": "1613210669",
+                                "@team_id": "174839",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.75",
+                                    "@bet_ref": "MTYxMzIxMDY2OTo3NTAvMTAwMDo6MA",
+                                    "@frac_prc": "750/1000",
+                                    "@us_prc": "-134",
+                                    "@last_change": "09/27/2026 09:15:48"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613210668",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.10",
+                                    "@bet_ref": "MTYxMzIxMDY2ODozMTAwLzEwMDA6OjA",
+                                    "@frac_prc": "3100/1000",
+                                    "@us_prc": "+310",
+                                    "@last_change": "09/25/2026 14:41:50"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "AFC Bournemouth",
+                                "@seln_id": "1613210667",
+                                "@team_id": "178233",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.90",
+                                    "@bet_ref": "MTYxMzIxMDY2NzoyOTAwLzEwMDA6OjA",
+                                    "@frac_prc": "2900/1000",
+                                    "@us_prc": "+290",
+                                    "@last_change": "09/27/2026 09:15:48"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Aston Villa v Brentford",
+                        "@start_time": "10/10/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13854129",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040114",
+                            "@br_match_id": "72221294"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177088",
+                                "@team_order": "0",
+                                "@name": "Aston Villa",
+                                "@short_name": "Aston Villa"
+                              },
+                              {
+                                "@team_id": "177799",
+                                "@team_order": "1",
+                                "@name": "Brentford",
+                                "@short_name": "Brentford"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577733174",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Aston Villa",
+                                "@seln_id": "1613211611",
+                                "@team_id": "177088",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.55",
+                                    "@bet_ref": "MTYxMzIxMTYxMToxNTUwLzEwMDA6OjA",
+                                    "@frac_prc": "1550/1000",
+                                    "@us_prc": "+155",
+                                    "@last_change": "09/20/2026 00:38:55"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613211610",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.50",
+                                    "@bet_ref": "MTYxMzIxMTYxMDoyNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "2500/1000",
+                                    "@us_prc": "+250",
+                                    "@last_change": "09/20/2026 00:38:53"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Brentford",
+                                "@seln_id": "1613211609",
+                                "@team_id": "177799",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.55",
+                                    "@bet_ref": "MTYxMzIxMTYwOToxNTUwLzEwMDA6OjA",
+                                    "@frac_prc": "1550/1000",
+                                    "@us_prc": "+155",
+                                    "@last_change": "09/20/2026 00:38:55"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Ipswich Town v Fulham",
+                        "@start_time": "10/10/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13854130",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040119",
+                            "@br_match_id": "72221304"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177536",
+                                "@team_order": "0",
+                                "@name": "Ipswich Town",
+                                "@short_name": "Ipswich Town"
+                              },
+                              {
+                                "@team_id": "177093",
+                                "@team_order": "1",
+                                "@name": "Fulham",
+                                "@short_name": "Fulham"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577733527",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Ipswich Town",
+                                "@seln_id": "1613212583",
+                                "@team_id": "177536",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.60",
+                                    "@bet_ref": "MTYxMzIxMjU4MzoxNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "1600/1000",
+                                    "@us_prc": "+160",
+                                    "@last_change": "09/23/2026 20:37:51"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613212582",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.50",
+                                    "@bet_ref": "MTYxMzIxMjU4MjoyNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "2500/1000",
+                                    "@us_prc": "+250",
+                                    "@last_change": "09/23/2026 20:37:51"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Fulham",
+                                "@seln_id": "1613212581",
+                                "@team_id": "177093",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.50",
+                                    "@bet_ref": "MTYxMzIxMjU4MToxNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "1500/1000",
+                                    "@us_prc": "+150",
+                                    "@last_change": "09/23/2026 20:37:51"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Sunderland v Brighton & Hove Albion",
+                        "@start_time": "10/10/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13854150",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040122",
+                            "@br_match_id": "72221310"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177794",
+                                "@team_order": "0",
+                                "@name": "Sunderland",
+                                "@short_name": "Sun"
+                              },
+                              {
+                                "@team_id": "177086",
+                                "@team_order": "1",
+                                "@name": "Brighton & Hove Albion",
+                                "@short_name": "Brighton & Hove Albion"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577735554",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Sunderland",
+                                "@seln_id": "1613217694",
+                                "@team_id": "177794",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.85",
+                                    "@bet_ref": "MTYxMzIxNzY5NDoxODUwLzEwMDA6OjA",
+                                    "@frac_prc": "1850/1000",
+                                    "@us_prc": "+185",
+                                    "@last_change": "09/25/2026 19:57:45"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613217693",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.50",
+                                    "@bet_ref": "MTYxMzIxNzY5MzoyNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "2500/1000",
+                                    "@us_prc": "+250",
+                                    "@last_change": "09/25/2026 19:57:45"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Brighton & Hove Albion",
+                                "@seln_id": "1613217692",
+                                "@team_id": "177086",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.30",
+                                    "@bet_ref": "MTYxMzIxNzY5MjoxMzAwLzEwMDA6OjA",
+                                    "@frac_prc": "1300/1000",
+                                    "@us_prc": "+130",
+                                    "@last_change": "09/25/2026 19:57:45"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Manchester United FC v Tottenham",
+                        "@start_time": "10/10/2026 16:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "155",
+                        "@ev_id": "13854127",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040121",
+                            "@br_match_id": "72221308"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "175719",
+                                "@team_order": "0",
+                                "@name": "Manchester United FC",
+                                "@short_name": "Manchester United FC"
+                              },
+                              {
+                                "@team_id": "101",
+                                "@team_order": "1",
+                                "@name": "Tottenham",
+                                "@short_name": "Tottenham"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577732548",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Manchester United FC",
+                                "@seln_id": "1613209718",
+                                "@team_id": "175719",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.67",
+                                    "@bet_ref": "MTYxMzIwOTcxODo2NzAvMTAwMDo6MA",
+                                    "@frac_prc": "670/1000",
+                                    "@us_prc": "-150",
+                                    "@last_change": "09/20/2026 22:25:15"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613209717",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.20",
+                                    "@bet_ref": "MTYxMzIwOTcxNzozMjAwLzEwMDA6OjA",
+                                    "@frac_prc": "3200/1000",
+                                    "@us_prc": "+320",
+                                    "@last_change": "09/20/2026 22:25:13"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Tottenham",
+                                "@seln_id": "1613209716",
+                                "@team_id": "101",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.30",
+                                    "@bet_ref": "MTYxMzIwOTcxNjozMzAwLzEwMDA6OjA",
+                                    "@frac_prc": "3300/1000",
+                                    "@us_prc": "+330",
+                                    "@last_change": "09/20/2026 22:25:15"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Crystal Palace v Nottingham Forest",
+                        "@start_time": "10/11/2026 13:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13854153",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040117",
+                            "@br_match_id": "72221300"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177084",
+                                "@team_order": "0",
+                                "@name": "Crystal Palace",
+                                "@short_name": "Cry"
+                              },
+                              {
+                                "@team_id": "177763",
+                                "@team_order": "1",
+                                "@name": "Nottingham Forest",
+                                "@short_name": "Nottingham Forest"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577735911",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Crystal Palace",
+                                "@seln_id": "1613218694",
+                                "@team_id": "177084",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.55",
+                                    "@bet_ref": "MTYxMzIxODY5NDoxNTUwLzEwMDA6OjA",
+                                    "@frac_prc": "1550/1000",
+                                    "@us_prc": "+155",
+                                    "@last_change": "09/19/2026 14:21:11"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613218693",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.35",
+                                    "@bet_ref": "MTYxMzIxODY5MzoyMzUwLzEwMDA6OjA",
+                                    "@frac_prc": "2350/1000",
+                                    "@us_prc": "+235",
+                                    "@last_change": "09/19/2026 14:21:11"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Nottingham Forest",
+                                "@seln_id": "1613218692",
+                                "@team_id": "177763",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.65",
+                                    "@bet_ref": "MTYxMzIxODY5MjoxNjUwLzEwMDA6OjA",
+                                    "@frac_prc": "1650/1000",
+                                    "@us_prc": "+165",
+                                    "@last_change": "09/19/2026 14:21:11"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Hull City v Everton",
+                        "@start_time": "10/11/2026 13:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "154",
+                        "@ev_id": "13854155",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040118",
+                            "@br_match_id": "72221302"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177795",
+                                "@team_order": "0",
+                                "@name": "Hull City",
+                                "@short_name": "Hull City"
+                              },
+                              {
+                                "@team_id": "177097",
+                                "@team_order": "1",
+                                "@name": "Everton",
+                                "@short_name": "Eve"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577736221",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Hull City",
+                                "@seln_id": "1613219570",
+                                "@team_id": "177795",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.50",
+                                    "@bet_ref": "MTYxMzIxOTU3MDoyNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "2500/1000",
+                                    "@us_prc": "+250",
+                                    "@last_change": "09/20/2026 22:28:32"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613219569",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.35",
+                                    "@bet_ref": "MTYxMzIxOTU2OToyMzUwLzEwMDA6OjA",
+                                    "@frac_prc": "2350/1000",
+                                    "@us_prc": "+235",
+                                    "@last_change": "09/20/2026 22:28:32"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Everton",
+                                "@seln_id": "1613219568",
+                                "@team_id": "177097",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.05",
+                                    "@bet_ref": "MTYxMzIxOTU2ODoxMDUwLzEwMDA6OjA",
+                                    "@frac_prc": "1050/1000",
+                                    "@us_prc": "+105",
+                                    "@last_change": "09/20/2026 13:56:09"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Liverpool v Manchester City",
+                        "@start_time": "10/11/2026 15:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13854124",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040120",
+                            "@br_match_id": "72221306"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "176377",
+                                "@team_order": "0",
+                                "@name": "Liverpool",
+                                "@short_name": "Liv"
+                              },
+                              {
+                                "@team_id": "174835",
+                                "@team_order": "1",
+                                "@name": "Manchester City",
+                                "@short_name": "Manchester City"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "577732217",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Liverpool",
+                                "@seln_id": "1613208574",
+                                "@team_id": "176377",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.60",
+                                    "@bet_ref": "MTYxMzIwODU3NDoxNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "1600/1000",
+                                    "@us_prc": "+160",
+                                    "@last_change": "09/25/2026 14:37:11"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1613208573",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.70",
+                                    "@bet_ref": "MTYxMzIwODU3MzoyNzAwLzEwMDA6OjA",
+                                    "@frac_prc": "2700/1000",
+                                    "@us_prc": "+270",
+                                    "@last_change": "09/25/2026 14:37:11"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Manchester City",
+                                "@seln_id": "1613208572",
+                                "@team_id": "174835",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.40",
+                                    "@bet_ref": "MTYxMzIwODU3MjoxNDAwLzEwMDA6OjA",
+                                    "@frac_prc": "1400/1000",
+                                    "@us_prc": "+140",
+                                    "@last_change": "09/25/2026 14:37:11"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Coventry City v Newcastle United",
+                        "@start_time": "10/12/2026 19:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13873791",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040116",
+                            "@br_match_id": "72221298"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "159765",
+                                "@team_order": "0",
+                                "@name": "Coventry City",
+                                "@short_name": "Coventry City"
+                              },
+                              {
+                                "@team_id": "177091",
+                                "@team_order": "1",
+                                "@name": "Newcastle United",
+                                "@short_name": "Newcastle United"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "578815530",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Coventry City",
+                                "@seln_id": "1616242669",
+                                "@team_id": "159765",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.20",
+                                    "@bet_ref": "MTYxNjI0MjY2OToyMjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2200/1000",
+                                    "@us_prc": "+220",
+                                    "@last_change": "09/22/2026 01:32:36"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1616242668",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.70",
+                                    "@bet_ref": "MTYxNjI0MjY2ODoyNzAwLzEwMDA6OjA",
+                                    "@frac_prc": "2700/1000",
+                                    "@us_prc": "+270",
+                                    "@last_change": "09/22/2026 01:32:36"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Newcastle United",
+                                "@seln_id": "1616242667",
+                                "@team_id": "177091",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.05",
+                                    "@bet_ref": "MTYxNjI0MjY2NzoxMDUwLzEwMDA6OjA",
+                                    "@frac_prc": "1050/1000",
+                                    "@us_prc": "+105",
+                                    "@last_change": "09/22/2026 01:32:34"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Everton v Chelsea",
+                        "@start_time": "10/17/2026 11:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13931778",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040126",
+                            "@br_match_id": "72221318"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177097",
+                                "@team_order": "0",
+                                "@name": "Everton",
+                                "@short_name": "Eve"
+                              },
+                              {
+                                "@team_id": "174839",
+                                "@team_order": "1",
+                                "@name": "Chelsea",
+                                "@short_name": "Che"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581963496",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Everton",
+                                "@seln_id": "1624987268",
+                                "@team_id": "177097",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.80",
+                                    "@bet_ref": "MTYyNDk4NzI2ODoxODAwLzEwMDA6OjA",
+                                    "@frac_prc": "1800/1000",
+                                    "@us_prc": "+180",
+                                    "@last_change": "09/24/2026 09:40:09"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1624987267",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.60",
+                                    "@bet_ref": "MTYyNDk4NzI2NzoyNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2600/1000",
+                                    "@us_prc": "+260",
+                                    "@last_change": "09/24/2026 09:40:09"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Chelsea",
+                                "@seln_id": "1624987266",
+                                "@team_id": "174839",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.30",
+                                    "@bet_ref": "MTYyNDk4NzI2NjoxMzAwLzEwMDA6OjA",
+                                    "@frac_prc": "1300/1000",
+                                    "@us_prc": "+130",
+                                    "@last_change": "09/24/2026 09:40:09"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Brentford v Liverpool",
+                        "@start_time": "10/17/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "155",
+                        "@ev_id": "13931755",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040124",
+                            "@br_match_id": "72221314"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177799",
+                                "@team_order": "0",
+                                "@name": "Brentford",
+                                "@short_name": "Brentford"
+                              },
+                              {
+                                "@team_id": "176377",
+                                "@team_order": "1",
+                                "@name": "Liverpool",
+                                "@short_name": "Liv"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581961323",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Brentford",
+                                "@seln_id": "1624979963",
+                                "@team_id": "177799",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.65",
+                                    "@bet_ref": "MTYyNDk3OTk2MzoxNjUwLzEwMDA6OjA",
+                                    "@frac_prc": "1650/1000",
+                                    "@us_prc": "+165",
+                                    "@last_change": "09/21/2026 12:24:35"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1624979962",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.75",
+                                    "@bet_ref": "MTYyNDk3OTk2MjoyNzUwLzEwMDA6OjA",
+                                    "@frac_prc": "2750/1000",
+                                    "@us_prc": "+275",
+                                    "@last_change": "09/21/2026 12:24:35"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Liverpool",
+                                "@seln_id": "1624979961",
+                                "@team_id": "176377",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.35",
+                                    "@bet_ref": "MTYyNDk3OTk2MToxMzUwLzEwMDA6OjA",
+                                    "@frac_prc": "1350/1000",
+                                    "@us_prc": "+135",
+                                    "@last_change": "09/21/2026 12:24:35"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Fulham v Hull City",
+                        "@start_time": "10/17/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "155",
+                        "@ev_id": "13931756",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040127",
+                            "@br_match_id": "72221320"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177093",
+                                "@team_order": "0",
+                                "@name": "Fulham",
+                                "@short_name": "Fulham"
+                              },
+                              {
+                                "@team_id": "177795",
+                                "@team_order": "1",
+                                "@name": "Hull City",
+                                "@short_name": "Hull City"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581961566",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Fulham",
+                                "@seln_id": "1624980989",
+                                "@team_id": "177093",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.65",
+                                    "@bet_ref": "MTYyNDk4MDk4OTo2NTAvMTAwMDo6MA",
+                                    "@frac_prc": "650/1000",
+                                    "@us_prc": "-154",
+                                    "@last_change": "09/26/2026 05:08:15"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1624980988",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.00",
+                                    "@bet_ref": "MTYyNDk4MDk4ODozMDAwLzEwMDA6OjA",
+                                    "@frac_prc": "3000/1000",
+                                    "@us_prc": "+300",
+                                    "@last_change": "09/24/2026 01:05:59"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Hull City",
+                                "@seln_id": "1624980987",
+                                "@team_id": "177795",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.75",
+                                    "@bet_ref": "MTYyNDk4MDk4NzozNzUwLzEwMDA6OjA",
+                                    "@frac_prc": "3750/1000",
+                                    "@us_prc": "+375",
+                                    "@last_change": "09/26/2026 05:08:15"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Manchester City v Ipswich Town",
+                        "@start_time": "10/17/2026 14:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "152",
+                        "@ev_id": "13934247",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040129",
+                            "@br_match_id": "72221324"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "174835",
+                                "@team_order": "0",
+                                "@name": "Manchester City",
+                                "@short_name": "Manchester City"
+                              },
+                              {
+                                "@team_id": "177536",
+                                "@team_order": "1",
+                                "@name": "Ipswich Town",
+                                "@short_name": "Ipswich Town"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "582077761",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Manchester City",
+                                "@seln_id": "1625319433",
+                                "@team_id": "174835",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.22",
+                                    "@bet_ref": "MTYyNTMxOTQzMzoyMjAvMTAwMDo6MA",
+                                    "@frac_prc": "220/1000",
+                                    "@us_prc": "-455",
+                                    "@last_change": "09/22/2026 13:57:41"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625319427",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "6.25",
+                                    "@bet_ref": "MTYyNTMxOTQyNzo1MjUwLzEwMDA6OjA",
+                                    "@frac_prc": "5250/1000",
+                                    "@us_prc": "+525",
+                                    "@last_change": "09/22/2026 13:57:41"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Ipswich Town",
+                                "@seln_id": "1625319425",
+                                "@team_id": "177536",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "11.00",
+                                    "@bet_ref": "MTYyNTMxOTQyNToxMDAwLzEwMDo6MA",
+                                    "@frac_prc": "1000/100",
+                                    "@us_prc": "+1000",
+                                    "@last_change": "09/22/2026 13:57:41"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Newcastle United v Aston Villa",
+                        "@start_time": "10/17/2026 16:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13931932",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040130",
+                            "@br_match_id": "72221326"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177091",
+                                "@team_order": "0",
+                                "@name": "Newcastle United",
+                                "@short_name": "Newcastle United"
+                              },
+                              {
+                                "@team_id": "177088",
+                                "@team_order": "1",
+                                "@name": "Aston Villa",
+                                "@short_name": "Aston Villa"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581984614",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Newcastle United",
+                                "@seln_id": "1625055238",
+                                "@team_id": "177091",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.10",
+                                    "@bet_ref": "MTYyNTA1NTIzODoxMTAwLzEwMDA6OjA",
+                                    "@frac_prc": "1100/1000",
+                                    "@us_prc": "+110",
+                                    "@last_change": "09/21/2026 12:44:48"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625055237",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.75",
+                                    "@bet_ref": "MTYyNTA1NTIzNzoyNzUwLzEwMDA6OjA",
+                                    "@frac_prc": "2750/1000",
+                                    "@us_prc": "+275",
+                                    "@last_change": "09/22/2026 13:54:56"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Aston Villa",
+                                "@seln_id": "1625055236",
+                                "@team_id": "177088",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.05",
+                                    "@bet_ref": "MTYyNTA1NTIzNjoyMDUwLzEwMDA6OjA",
+                                    "@frac_prc": "2050/1000",
+                                    "@us_prc": "+205",
+                                    "@last_change": "09/22/2026 13:54:56"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "AFC Bournemouth v Sunderland",
+                        "@start_time": "10/18/2026 13:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13931818",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040123",
+                            "@br_match_id": "72221312"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "178233",
+                                "@team_order": "0",
+                                "@name": "AFC Bournemouth",
+                                "@short_name": "AFC Bournemouth"
+                              },
+                              {
+                                "@team_id": "177794",
+                                "@team_order": "1",
+                                "@name": "Sunderland",
+                                "@short_name": "Sun"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581974711",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "AFC Bournemouth",
+                                "@seln_id": "1625023076",
+                                "@team_id": "178233",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.95",
+                                    "@bet_ref": "MTYyNTAyMzA3Njo5NTAvMTAwMDo6MA",
+                                    "@frac_prc": "950/1000",
+                                    "@us_prc": "-106",
+                                    "@last_change": "09/25/2026 15:46:19"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625023075",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.60",
+                                    "@bet_ref": "MTYyNTAyMzA3NToyNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2600/1000",
+                                    "@us_prc": "+260",
+                                    "@last_change": "09/25/2026 15:46:19"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Sunderland",
+                                "@seln_id": "1625023074",
+                                "@team_id": "177794",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.60",
+                                    "@bet_ref": "MTYyNTAyMzA3NDoyNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2600/1000",
+                                    "@us_prc": "+260",
+                                    "@last_change": "09/25/2026 15:46:19"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Leeds United v Manchester United FC",
+                        "@start_time": "10/18/2026 13:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "156",
+                        "@ev_id": "13931835",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040128",
+                            "@br_match_id": "72221322"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177101",
+                                "@team_order": "0",
+                                "@name": "Leeds United",
+                                "@short_name": "Leeds United"
+                              },
+                              {
+                                "@team_id": "175719",
+                                "@team_order": "1",
+                                "@name": "Manchester United FC",
+                                "@short_name": "Manchester United FC"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581975411",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Leeds United",
+                                "@seln_id": "1625025332",
+                                "@team_id": "177101",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.80",
+                                    "@bet_ref": "MTYyNTAyNTMzMjoxODAwLzEwMDA6OjA",
+                                    "@frac_prc": "1800/1000",
+                                    "@us_prc": "+180",
+                                    "@last_change": "09/26/2026 08:12:08"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625025331",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "3.60",
+                                    "@bet_ref": "MTYyNTAyNTMzMToyNjAwLzEwMDA6OjA",
+                                    "@frac_prc": "2600/1000",
+                                    "@us_prc": "+260",
+                                    "@last_change": "09/26/2026 08:12:08"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Manchester United FC",
+                                "@seln_id": "1625025330",
+                                "@team_id": "175719",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "2.30",
+                                    "@bet_ref": "MTYyNTAyNTMzMDoxMzAwLzEwMDA6OjA",
+                                    "@frac_prc": "1300/1000",
+                                    "@us_prc": "+130",
+                                    "@last_change": "09/26/2026 08:12:08"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Brighton & Hove Albion v Crystal Palace",
+                        "@start_time": "10/18/2026 13:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "151",
+                        "@ev_id": "13931836",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040125",
+                            "@br_match_id": "72221316"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177086",
+                                "@team_order": "0",
+                                "@name": "Brighton & Hove Albion",
+                                "@short_name": "Brighton & Hove Albion"
+                              },
+                              {
+                                "@team_id": "177084",
+                                "@team_order": "1",
+                                "@name": "Crystal Palace",
+                                "@short_name": "Cry"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581975719",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Brighton & Hove Albion",
+                                "@seln_id": "1625026375",
+                                "@team_id": "177086",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.53",
+                                    "@bet_ref": "MTYyNTAyNjM3NTo1MzAvMTAwMDo6MA",
+                                    "@frac_prc": "530/1000",
+                                    "@us_prc": "-189",
+                                    "@last_change": "09/21/2026 12:35:39"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625026374",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.30",
+                                    "@bet_ref": "MTYyNTAyNjM3NDozMzAwLzEwMDA6OjA",
+                                    "@frac_prc": "3300/1000",
+                                    "@us_prc": "+330",
+                                    "@last_change": "09/21/2026 12:35:39"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Crystal Palace",
+                                "@seln_id": "1625026373",
+                                "@team_id": "177084",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "5.50",
+                                    "@bet_ref": "MTYyNTAyNjM3Mzo0NTAwLzEwMDA6OjA",
+                                    "@frac_prc": "4500/1000",
+                                    "@us_prc": "+450",
+                                    "@last_change": "09/21/2026 12:35:39"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Nottingham Forest v Arsenal",
+                        "@start_time": "10/18/2026 15:30:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "154",
+                        "@ev_id": "13931808",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040131",
+                            "@br_match_id": "72221328"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "177763",
+                                "@team_order": "0",
+                                "@name": "Nottingham Forest",
+                                "@short_name": "Nottingham Forest"
+                              },
+                              {
+                                "@team_id": "176376",
+                                "@team_order": "1",
+                                "@name": "Arsenal",
+                                "@short_name": "Arsenal"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581972402",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Nottingham Forest",
+                                "@seln_id": "1625015194",
+                                "@team_id": "177763",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "5.50",
+                                    "@bet_ref": "MTYyNTAxNTE5NDo0NTAwLzEwMDA6OjA",
+                                    "@frac_prc": "4500/1000",
+                                    "@us_prc": "+450",
+                                    "@last_change": "09/21/2026 14:15:23"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625015193",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.00",
+                                    "@bet_ref": "MTYyNTAxNTE5MzozMDAwLzEwMDA6OjA",
+                                    "@frac_prc": "3000/1000",
+                                    "@us_prc": "+300",
+                                    "@last_change": "09/21/2026 14:15:23"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Arsenal",
+                                "@seln_id": "1625015192",
+                                "@team_id": "176376",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.57",
+                                    "@bet_ref": "MTYyNTAxNTE5Mjo1NzAvMTAwMDo6MA",
+                                    "@frac_prc": "570/1000",
+                                    "@us_prc": "-176",
+                                    "@last_change": "09/21/2026 14:15:23"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "@inplay_allowed": "N",
+                        "@status": "A",
+                        "@name": "Tottenham v Coventry City",
+                        "@start_time": "10/19/2026 19:00:00",
+                        "@virtual": "N",
+                        "@ev_timezone": "Europe/London",
+                        "@inplay_now": "N",
+                        "@mkt_count": "150",
+                        "@ev_id": "13931799",
+                        "@disporder": "-21",
+                        "EvDetail": [
+                          {
+                            "@bg_match_id": "14040132",
+                            "@br_match_id": "72221330"
+                          }
+                        ],
+                        "Teams": [
+                          {
+                            "Team": [
+                              {
+                                "@team_id": "101",
+                                "@team_order": "0",
+                                "@name": "Tottenham",
+                                "@short_name": "Tottenham"
+                              },
+                              {
+                                "@team_id": "159765",
+                                "@team_order": "1",
+                                "@name": "Coventry City",
+                                "@short_name": "Coventry City"
+                              }
+                            ]
+                          }
+                        ],
+                        "Mkt": [
+                          {
+                            "@status": "A",
+                            "@fc_avail": "N",
+                            "@name": "1X2 - Momios Mejorados",
+                            "@mkt_id": "581969625",
+                            "@inplay_avail": "Y",
+                            "@disporder": "-95",
+                            "@tc_avail": "N",
+                            "@sp_avail": "N",
+                            "@mkt_sort": "MRES",
+                            "@lp_avail": "Y",
+                            "@mkt_sort_name": "MKT_SORT-MRES",
+                            "Seln": [
+                              {
+                                "@status": "A",
+                                "@name": "Tottenham",
+                                "@seln_id": "1625007010",
+                                "@team_id": "101",
+                                "@disporder": "0",
+                                "@seln_sort": "H",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "1.45",
+                                    "@bet_ref": "MTYyNTAwNzAxMDo0NTAvMTAwMDo6MA",
+                                    "@frac_prc": "450/1000",
+                                    "@us_prc": "-223",
+                                    "@last_change": "09/25/2026 06:25:44"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Draw",
+                                "@seln_id": "1625007009",
+                                "@team_id": null,
+                                "@disporder": "1",
+                                "@seln_sort": "D",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "4.50",
+                                    "@bet_ref": "MTYyNTAwNzAwOTozNTAwLzEwMDA6OjA",
+                                    "@frac_prc": "3500/1000",
+                                    "@us_prc": "+350",
+                                    "@last_change": "09/21/2026 12:31:45"
+                                  }
+                                ]
+                              },
+                              {
+                                "@status": "A",
+                                "@name": "Coventry City",
+                                "@seln_id": "1625007008",
+                                "@team_id": "159765",
+                                "@disporder": "2",
+                                "@seln_sort": "A",
+                                "Price": [
+                                  {
+                                    "@prc_type": "LP",
+                                    "@dec_prc": "6.00",
+                                    "@bet_ref": "MTYyNTAwNzAwODo1MDAwLzEwMDA6OjA",
+                                    "@frac_prc": "5000/1000",
+                                    "@us_prc": "+500",
+                                    "@last_change": "09/25/2026 06:25:44"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

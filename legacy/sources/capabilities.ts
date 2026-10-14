@@ -1,0 +1,12 @@
+export const SOURCE_KINDS = ['SPORTSBOOK', 'EXCHANGE', 'COMMERCIAL_API', 'CUSTOMER_FEED', 'HISTORICAL'] as const;
+export type SourceKind = typeof SOURCE_KINDS[number];
+export type SourceCapabilities = { id: string; kind: SourceKind; priceSemantics: 'fixed_odds' | 'taker_orderbook' | 'aggregated_fixed_odds'; live: boolean; transport: 'polling' | 'passive_browser'; historicalBackfill: boolean; executablePrice: boolean; notes: string };
+export const SOURCE_CAPABILITIES: SourceCapabilities[] = [
+  { id: 'bovada', kind: 'SPORTSBOOK', priceSemantics: 'fixed_odds', live: true, transport: 'polling', historicalBackfill: false, executablePrice: false, notes: 'Observed public quotes; availability is not a guarantee of execution.' },
+  { id: 'sxbet', kind: 'EXCHANGE', priceSemantics: 'taker_orderbook', live: true, transport: 'polling', historicalBackfill: false, executablePrice: false, notes: 'Top taker level only; size, snapshot version and perspective retained. No fixed-odds equivalence, fee or fill guarantee.' },
+  { id: 'actionnetwork', kind: 'COMMERCIAL_API', priceSemantics: 'aggregated_fixed_odds', live: true, transport: 'polling', historicalBackfill: false, executablePrice: false, notes: 'Public scoreboard aggregator; source book IDs remain separate. Classification does not imply a commercial license or SLA.' },
+  { id: 'bestfightodds', kind: 'COMMERCIAL_API', priceSemantics: 'aggregated_fixed_odds', live: false, transport: 'polling', historicalBackfill: false, executablePrice: false, notes: 'Public rendered MMA aggregator. Per-book rows are observed through BestFightOdds, not direct sportsbook sessions.' },
+  { id: 'fightodds', kind: 'COMMERCIAL_API', priceSemantics: 'aggregated_fixed_odds', live: false, transport: 'polling', historicalBackfill: false, executablePrice: false, notes: 'Public rendered MMA aggregator. Per-book rows are observed through FightOdds, not direct sportsbook sessions.' },
+  { id: 'betonline', kind: 'SPORTSBOOK', priceSemantics: 'fixed_odds', live: true, transport: 'passive_browser', historicalBackfill: false, executablePrice: false, notes: 'Authorized passive session observation; access restrictions remain enforced.' }
+];
+export function capabilitiesFor(id: string): SourceCapabilities | undefined { return SOURCE_CAPABILITIES.find(s=>s.id===id || (s.id==='actionnetwork' && id.startsWith('actionnetwork-')) || (s.id==='bestfightodds' && id.startsWith('bfo-')) || (s.id==='fightodds' && id.startsWith('fightodds-'))); }

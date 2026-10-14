@@ -1,0 +1,1629 @@
+[
+  {
+    "url": "https://www.betsson.mx/api/sb/v1/widgets/carousel/v3?priceFormats=2,1",
+    "payload": {
+      "data": {
+        "events": [
+          {
+            "nodeIdentifier": "1.247.15723.15726",
+            "globalId": "event.1.247.15723.f-3uLKkolqOkanyK3VybudSg",
+            "categoryId": "1",
+            "categoryName": "Fútbol",
+            "categoryPopularityOrder": 0,
+            "regionId": "247",
+            "regionName": "Nations League",
+            "competitionId": "15723",
+            "competitionName": "UEFA Nations League",
+            "competitionPopularityOrder": 0,
+            "slug": "futbol/nations-league/uefa-nations-league/inglaterra-espana",
+            "participants": [
+              {
+                "label": "Inglaterra",
+                "id": "1577",
+                "sortOrder": 1,
+                "side": 1,
+                "logo": {
+                  "type": 1,
+                  "url": "/cdn/imageapi/sb/bgr/Common/Sportsbook/neutral/image/2025/09/flags.GB-ENG.svg",
+                  "colours": []
+                }
+              },
+              {
+                "label": "España",
+                "id": "1582",
+                "sortOrder": 2,
+                "side": 2,
+                "logo": {
+                  "type": 1,
+                  "url": "/cdn/imageapi/sb/bgr/Common/Sportsbook/neutral/image/2025/09/flags.ES.svg",
+                  "colours": []
+                }
+              }
+            ],
+            "subParticipants": [
+              {
+                "id": "61824",
+                "label": "Alex Scott",
+                "side": 1
+              },
+              {
+                "id": "75771",
+                "label": "Jason Steele",
+                "side": 1
+              },
+              {
+                "id": "125981",
+                "label": "Lewis Dunk",
+                "side": 1
+              },
+              {
+                "id": "126505",
+                "label": "Kyle Walker",
+                "side": 1
+              },
+              {
+                "id": "135274",
+                "label": "Harry Kane",
+                "side": 1
+              },
+              {
+                "id": "137462",
+                "label": "Kieran Trippier",
+                "side": 1
+              },
+              {
+                "id": "202779",
+                "label": "Luke Shaw",
+                "side": 1
+              },
+              {
+                "id": "219543",
+                "label": "Dan Burn",
+                "side": 1
+              },
+              {
+                "id": "224735",
+                "label": "Jordan Pickford",
+                "side": 1
+              },
+              {
+                "id": "226552",
+                "label": "John Stones",
+                "side": 1
+              },
+              {
+                "id": "233732",
+                "label": "Jack Grealish",
+                "side": 1
+              },
+              {
+                "id": "249030",
+                "label": "Ivan Toney",
+                "side": 1
+              },
+              {
+                "id": "269805",
+                "label": "Ollie Watkins",
+                "side": 1
+              },
+              {
+                "id": "279316",
+                "label": "Reece James",
+                "side": 1
+              },
+              {
+                "id": "302923",
+                "label": "Dominic Calvert-Lewin",
+                "side": 1
+              },
+              {
+                "id": "345556",
+                "label": "Marcus Rashford",
+                "side": 1
+              },
+              {
+                "id": "387223",
+                "label": "Trent Alexander-Arnold",
+                "side": 1
+              },
+              {
+                "id": "387228",
+                "label": "Jordan Henderson",
+                "side": 1
+              },
+              {
+                "id": "392246",
+                "label": "Jarrod Bowen",
+                "side": 1
+              },
+              {
+                "id": "394817",
+                "label": "Ezri Konsa Ngoyo",
+                "side": 1
+              },
+              {
+                "id": "407953",
+                "label": "Declan Rice",
+                "side": 1
+              },
+              {
+                "id": "429011",
+                "label": "Phil Foden",
+                "side": 1
+              },
+              {
+                "id": "435674",
+                "label": "Dean Henderson",
+                "side": 1
+              },
+              {
+                "id": "500576",
+                "label": "Eberechi Eze",
+                "side": 1
+              },
+              {
+                "id": "504558",
+                "label": "Aaron Ramsdale",
+                "side": 1
+              },
+              {
+                "id": "560241",
+                "label": "Trevoh Chalobah",
+                "side": 1
+              },
+              {
+                "id": "615229",
+                "label": "Morgan Gibbs-White",
+                "side": 1
+              },
+              {
+                "id": "618011",
+                "label": "Reece James",
+                "side": 1
+              },
+              {
+                "id": "638010",
+                "label": "Joe Gomez",
+                "side": 1
+              },
+              {
+                "id": "697513",
+                "label": "Bukayo Saka",
+                "side": 1
+              },
+              {
+                "id": "839479",
+                "label": "James Garner",
+                "side": 1
+              },
+              {
+                "id": "1053392",
+                "label": "Curtis Jones",
+                "side": 1
+              },
+              {
+                "id": "1074229",
+                "label": "Jarrad Branthwaite",
+                "side": 1
+              },
+              {
+                "id": "1094261",
+                "label": "Conor Gallagher",
+                "side": 1
+              },
+              {
+                "id": "1094274",
+                "label": "Djed Spence",
+                "side": 1
+              },
+              {
+                "id": "1094284",
+                "label": "Jude Bellingham",
+                "side": 1
+              },
+              {
+                "id": "1127036",
+                "label": "Noni Madueke",
+                "side": 1
+              },
+              {
+                "id": "1320105",
+                "label": "Anthony Gordon",
+                "side": 1
+              },
+              {
+                "id": "1381221",
+                "label": "Marc Guéhi",
+                "side": 1
+              },
+              {
+                "id": "1718856",
+                "label": "T. Bellis",
+                "side": 1
+              },
+              {
+                "id": "1718858",
+                "label": "Cole Palmer",
+                "side": 1
+              },
+              {
+                "id": "2189715",
+                "label": "Morgan Rogers",
+                "side": 1
+              },
+              {
+                "id": "2205137",
+                "label": "James Trafford",
+                "side": 1
+              },
+              {
+                "id": "3670685",
+                "label": "Jarell Quansah",
+                "side": 1
+              },
+              {
+                "id": "4056976",
+                "label": "Adam Wharton",
+                "side": 1
+              },
+              {
+                "id": "4303680",
+                "label": "Kobbie Mainoo",
+                "side": 1
+              },
+              {
+                "id": "4946275",
+                "label": "Elliot Anderson",
+                "side": 1
+              },
+              {
+                "id": "5023412",
+                "label": "Nico OReilly",
+                "side": 1
+              },
+              {
+                "id": "5292705",
+                "label": "Angel Gomes",
+                "side": 1
+              },
+              {
+                "id": "5616922",
+                "label": "Lewis Hall",
+                "side": 1
+              },
+              {
+                "id": "5723142",
+                "label": "Myles Lewis-skelly",
+                "side": 1
+              },
+              {
+                "id": "6728637",
+                "label": "No Goalscorer",
+                "side": 1
+              },
+              {
+                "id": "7533587",
+                "label": "Rio Ngumoha",
+                "side": 1
+              },
+              {
+                "id": "10644",
+                "label": "Own Goal",
+                "side": 2
+              },
+              {
+                "id": "15543",
+                "label": "Pedri González",
+                "side": 2
+              },
+              {
+                "id": "51776",
+                "label": "Jesus Navas",
+                "side": 2
+              },
+              {
+                "id": "133266",
+                "label": "Álvaro Morata",
+                "side": 2
+              },
+              {
+                "id": "185620",
+                "label": "Daniel Carvajal",
+                "side": 2
+              },
+              {
+                "id": "187097",
+                "label": "Joselu",
+                "side": 2
+              },
+              {
+                "id": "195060",
+                "label": "Aymeric Laporte",
+                "side": 2
+              },
+              {
+                "id": "213553",
+                "label": "Isco",
+                "side": 2
+              },
+              {
+                "id": "225228",
+                "label": "Nacho Fernández",
+                "side": 2
+              },
+              {
+                "id": "281108",
+                "label": "Marcos Llorente",
+                "side": 2
+              },
+              {
+                "id": "281117",
+                "label": "Alex Remiro",
+                "side": 2
+              },
+              {
+                "id": "285098",
+                "label": "Borja Iglesias",
+                "side": 2
+              },
+              {
+                "id": "346152",
+                "label": "Fabian Ruiz",
+                "side": 2
+              },
+              {
+                "id": "352431",
+                "label": "Mikel Oyarzabal",
+                "side": 2
+              },
+              {
+                "id": "355010",
+                "label": "Aleix García",
+                "side": 2
+              },
+              {
+                "id": "396697",
+                "label": "Mikel Merino",
+                "side": 2
+              },
+              {
+                "id": "404468",
+                "label": "Rodri",
+                "side": 2
+              },
+              {
+                "id": "415560",
+                "label": "Unai Simon",
+                "side": 2
+              },
+              {
+                "id": "532311",
+                "label": "Ferran Torres",
+                "side": 2
+              },
+              {
+                "id": "590307",
+                "label": "Dani Vivian",
+                "side": 2
+              },
+              {
+                "id": "604804",
+                "label": "Dani Olmo",
+                "side": 2
+              },
+              {
+                "id": "631398",
+                "label": "Pedro Porro",
+                "side": 2
+              },
+              {
+                "id": "719843",
+                "label": "Juan Miranda",
+                "side": 2
+              },
+              {
+                "id": "774993",
+                "label": "Robin Le Normand",
+                "side": 2
+              },
+              {
+                "id": "1007322",
+                "label": "Martin Zubimendi",
+                "side": 2
+              },
+              {
+                "id": "1007323",
+                "label": "Sergio Camello",
+                "side": 2
+              },
+              {
+                "id": "1007326",
+                "label": "Abel Ruiz",
+                "side": 2
+              },
+              {
+                "id": "1159048",
+                "label": "Joan Garcia",
+                "side": 2
+              },
+              {
+                "id": "1308097",
+                "label": "Eric Garcia",
+                "side": 2
+              },
+              {
+                "id": "1345131",
+                "label": "Arnau Tenas",
+                "side": 2
+              },
+              {
+                "id": "1772172",
+                "label": "Álex Baena",
+                "side": 2
+              },
+              {
+                "id": "1772174",
+                "label": "Jon Pacheco",
+                "side": 2
+              },
+              {
+                "id": "1772175",
+                "label": "Aimar Oroz",
+                "side": 2
+              },
+              {
+                "id": "1772196",
+                "label": "Oscar Mingueza",
+                "side": 2
+              },
+              {
+                "id": "1827654",
+                "label": "Josep Martinez",
+                "side": 2
+              },
+              {
+                "id": "1922623",
+                "label": "Yeremy Pino",
+                "side": 2
+              },
+              {
+                "id": "2155021",
+                "label": "Nico Williams",
+                "side": 2
+              },
+              {
+                "id": "2567318",
+                "label": "Miguel Gutiérrez",
+                "side": 2
+              },
+              {
+                "id": "2567324",
+                "label": "Benat Turrientes",
+                "side": 2
+              },
+              {
+                "id": "2627605",
+                "label": "Bryan Gil",
+                "side": 2
+              },
+              {
+                "id": "2823041",
+                "label": "Adrian Bernabe",
+                "side": 2
+              },
+              {
+                "id": "2827777",
+                "label": "Marc Cucurella",
+                "side": 2
+              },
+              {
+                "id": "2832675",
+                "label": "Pablo Gavi Paez",
+                "side": 2
+              },
+              {
+                "id": "3155852",
+                "label": "Diego Lopez",
+                "side": 2
+              },
+              {
+                "id": "3155870",
+                "label": "Cristhian Mosquera",
+                "side": 2
+              },
+              {
+                "id": "3155876",
+                "label": "Alejandro Iturbe",
+                "side": 2
+              },
+              {
+                "id": "3646357",
+                "label": "Marc Pubill",
+                "side": 2
+              },
+              {
+                "id": "3784991",
+                "label": "Pablo Barrios",
+                "side": 2
+              },
+              {
+                "id": "4206683",
+                "label": "Sergio Gomez",
+                "side": 2
+              },
+              {
+                "id": "4609049",
+                "label": "Ivan Fresneda",
+                "side": 2
+              },
+              {
+                "id": "4672839",
+                "label": "Ayoze Perez",
+                "side": 2
+              },
+              {
+                "id": "5053029",
+                "label": "Bryan Zaragoza",
+                "side": 2
+              },
+              {
+                "id": "5192705",
+                "label": "Alejandro Grimaldo",
+                "side": 2
+              },
+              {
+                "id": "5197549",
+                "label": "Juanlu Sanchez",
+                "side": 2
+              },
+              {
+                "id": "5239344",
+                "label": "Lamine Yamal",
+                "side": 2
+              },
+              {
+                "id": "5372237",
+                "label": "Fermin Lopez",
+                "side": 2
+              },
+              {
+                "id": "5391516",
+                "label": "Samu Omorodion",
+                "side": 2
+              },
+              {
+                "id": "5648474",
+                "label": "Roberto Fernandez Jaen",
+                "side": 2
+              },
+              {
+                "id": "5723108",
+                "label": "David Raya",
+                "side": 2
+              },
+              {
+                "id": "5723109",
+                "label": "Pau Cubarsi",
+                "side": 2
+              },
+              {
+                "id": "5966305",
+                "label": "Dean Huijsen",
+                "side": 2
+              },
+              {
+                "id": "6345852",
+                "label": "Victor Munoz",
+                "side": 2
+              }
+            ],
+            "marketCount": 1,
+            "phase": "Prematch",
+            "hasLiveStreaming": false,
+            "hasLiveStatistics": false,
+            "hasLiveVisual": false,
+            "hasLivePlayerStats": false,
+            "startDate": "2026-09-26T18:45:00Z",
+            "popularityOrder": 42,
+            "eventType": "Fixture",
+            "categoryTrackingLabel": "football",
+            "competitionTrackingLabel": "uefa-nations-league",
+            "regionTrackingLabel": "nations-league",
+            "prematchStatisticsProviders": [],
+            "actualSubCategoryId": 15726,
+            "marketCountUnique": 0,
+            "neutralPath": "football/nations-league/uefa-nations-league/england-spain",
+            "isFullScreenEnabled": false,
+            "tags": {
+              "sb-tg-alpha": {
+                "name": "sb-tg-alpha",
+                "attributes": {
+                  "tg-routing": "sb-tg-alpha=1;"
+                }
+              },
+              "sb-traded-prematch": {
+                "name": "sb-traded-prematch",
+                "attributes": {}
+              },
+              "bc_bb_available": {
+                "name": "bc_bb_available",
+                "attributes": {}
+              }
+            },
+            "id": "f-3uLKkolqOkanyK3VybudSg",
+            "label": "Inglaterra - España",
+            "isHomeTeam": false
+          }
+        ],
+        "markets": [
+          {
+            "eventId": "f-3uLKkolqOkanyK3VybudSg",
+            "marketTemplateId": "MW3W",
+            "lineValue": "",
+            "lineValueRaw": 0.0,
+            "status": "Open",
+            "validationRule": {
+              "code": 1,
+              "value": "NotWithinSameEvent"
+            },
+            "deadline": "2026-09-26T18:45:00Z",
+            "isCashoutAvailable": true,
+            "columnLayout": 3,
+            "helpText": "",
+            "isGroupableByMarketTemplate": true,
+            "betGroupDescription": "",
+            "marketTemplateTags": [
+              69,
+              29,
+              63,
+              42,
+              7,
+              55,
+              127,
+              59,
+              128,
+              16,
+              73,
+              4,
+              71,
+              36,
+              66,
+              48,
+              137,
+              133
+            ],
+            "marketSpecifics": {
+              "groupSortBy": [],
+              "groupLabels": {},
+              "groupTranslations": {}
+            },
+            "sortOrder": 1,
+            "marketFriendlyName": "Ganador del partido",
+            "marketVersion": 4,
+            "betBuilderAvailability": {
+              "state": 1,
+              "data": {},
+              "isHomeTeam": false
+            },
+            "originSelections": {},
+            "id": "m-f-3uLKkolqOkanyK3VybudSg-MW3W",
+            "label": "Ganador del partido",
+            "isHomeTeam": false
+          }
+        ],
+        "selections": [
+          {
+            "marketId": "m-f-3uLKkolqOkanyK3VybudSg-MW3W",
+            "odds": 3.45,
+            "alternateLabel": "Inglaterra",
+            "status": "Open",
+            "sortOrder": 1,
+            "participantId": "1577",
+            "participantLabel": "Inglaterra",
+            "selectionTemplateId": "HOME",
+            "participant": "Inglaterra",
+            "marketSelectionPriceFormats": {
+              "1": "3.45"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-3uLKkolqOkanyK3VybudSg-MW3W-home",
+            "label": "Inglaterra",
+            "isHomeTeam": true
+          },
+          {
+            "marketId": "m-f-3uLKkolqOkanyK3VybudSg-MW3W",
+            "odds": 3.4,
+            "alternateLabel": "Empate",
+            "status": "Open",
+            "sortOrder": 2,
+            "participantLabel": "Empate",
+            "selectionTemplateId": "DRAW",
+            "participant": "Empate",
+            "marketSelectionPriceFormats": {
+              "1": "3.40"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-3uLKkolqOkanyK3VybudSg-MW3W-draw",
+            "label": "Empate",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-3uLKkolqOkanyK3VybudSg-MW3W",
+            "odds": 2.12,
+            "alternateLabel": "España",
+            "status": "Open",
+            "sortOrder": 3,
+            "participantId": "1582",
+            "participantLabel": "España",
+            "selectionTemplateId": "AWAY",
+            "participant": "España",
+            "marketSelectionPriceFormats": {
+              "1": "2.12"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-3uLKkolqOkanyK3VybudSg-MW3W-away",
+            "label": "España",
+            "isHomeTeam": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://www.betsson.mx/api/sb/v1/widgets/event-market/v1?includescoreboards=true&marketids=m-f-FIJInOFS7ky-QJzF3ZzMEA-AWEH,m-f-FIJInOFS7ky-QJzF3ZzMEA-MWOU-2.5,m-f-F_WFP_4ggE-PLb0dXNcXsw-FTCSR,m-f-F_WFP_4ggE-PLb0dXNcXsw-HWEH,m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5,m-f-JMYsNBYt2kG7DXSXzb9nPg-WIN,m-f-JR5qy8jPmUS6HrG1Ccu6PA-OMA,m-f-M7mL-4nDOkeNMfv-50seQQ-BTTS1H,m-f-M7mL-4nDOkeNMfv-50seQQ-DC,m-f-M7mL-4nDOkeNMfv-50seQQ-MWOU-3.5,m-f-R4xB_QWhYkW3Rf4WQZVJJA-1HTG-1.5,m-f-R4xB_QWhYkW3Rf4WQZVJJA-AWEH,m-f-R4xB_QWhYkW3Rf4WQZVJJA-MWOU-2.5,m-f-lAhxkeoI70Odp4CsaU-z2g-AGSN,m-f-lAhxkeoI70Odp4CsaU-z2g-FTCSR,m-f-lAhxkeoI70Odp4CsaU-z2g-MWOU-2.5,m-f-osYSCT_3w0eRdzHQD9VtPg-OTG,m-f-p4JmmqR6OEG1cnwcz5GDZg-1HTG-1.5,m-f-p4JmmqR6OEG1cnwcz5GDZg-DC,m-f-p4JmmqR6OEG1cnwcz5GDZg-MWOU-2.5,m-f-sPBvl7AetEKEEFTluu1saw-1HTC-5.5,m-f-sPBvl7AetEKEEFTluu1saw-AGSCRSB,m-f-sPBvl7AetEKEEFTluu1saw-MWOU-2.5,m-f-sPBvl7AetEKEEFTluu1saw-TSTOUM-9.5,m-f-tlXA15shDUiypZzFccvd3g-1HTG-1.5",
+    "payload": {
+      "data": {
+        "events": [
+          {
+            "nodeIdentifier": "1.247.15723.15728",
+            "globalId": "event.1.247.15723.f-F_WFP_4ggE-PLb0dXNcXsw",
+            "categoryId": "1",
+            "categoryName": "Fútbol",
+            "categoryPopularityOrder": 2772,
+            "regionId": "247",
+            "regionName": "Nations League",
+            "competitionId": "15723",
+            "competitionName": "UEFA Nations League",
+            "competitionPopularityOrder": 902,
+            "slug": "futbol/nations-league/uefa-nations-league/macedonia-del-norte-suiza",
+            "participants": [
+              {
+                "label": "Macedonia del Norte",
+                "id": "3316",
+                "sortOrder": 1,
+                "side": 1,
+                "logo": {
+                  "type": 1,
+                  "url": "/cdn/imageapi/sb/bgr/Common/Sportsbook/neutral/image/2025/09/flags.MK.svg",
+                  "colours": []
+                }
+              },
+              {
+                "label": "Suiza",
+                "id": "1583",
+                "sortOrder": 2,
+                "side": 2,
+                "logo": {
+                  "type": 1,
+                  "url": "/cdn/imageapi/sb/bgr/Common/Sportsbook/neutral/image/2025/09/flags.CH.svg",
+                  "colours": []
+                }
+              }
+            ],
+            "subParticipants": [
+              {
+                "id": "70117",
+                "label": "Stankovski",
+                "side": 1
+              },
+              {
+                "id": "111209",
+                "label": "Gjoko Zajkov",
+                "side": 1
+              },
+              {
+                "id": "139305",
+                "label": "Ivan Trickovski",
+                "side": 1
+              },
+              {
+                "id": "140930",
+                "label": "David Mitov Nilsson",
+                "side": 1
+              },
+              {
+                "id": "147191",
+                "label": "Arijan Ademi",
+                "side": 1
+              },
+              {
+                "id": "219071",
+                "label": "D. Mojsov",
+                "side": 1
+              },
+              {
+                "id": "224192",
+                "label": "Aleksandar Trajkovski",
+                "side": 1
+              },
+              {
+                "id": "242064",
+                "label": "S. Ristovski",
+                "side": 1
+              },
+              {
+                "id": "277484",
+                "label": "K. Velkovski",
+                "side": 1
+              },
+              {
+                "id": "281905",
+                "label": "Stole Dimitrievski",
+                "side": 1
+              },
+              {
+                "id": "290898",
+                "label": "D. Siskovski",
+                "side": 1
+              },
+              {
+                "id": "297835",
+                "label": "K. Ristevski",
+                "side": 1
+              },
+              {
+                "id": "297846",
+                "label": "Darko Velkovski",
+                "side": 1
+              },
+              {
+                "id": "297848",
+                "label": "Marjan Radeski",
+                "side": 1
+              },
+              {
+                "id": "297849",
+                "label": "Enis Bardhi",
+                "side": 1
+              },
+              {
+                "id": "319072",
+                "label": "S. Spirovski",
+                "side": 1
+              },
+              {
+                "id": "319076",
+                "label": "B. Nikolov",
+                "side": 1
+              },
+              {
+                "id": "376749",
+                "label": "Tihomir Kostadinov",
+                "side": 1
+              },
+              {
+                "id": "392170",
+                "label": "Ilija Nestorovski",
+                "side": 1
+              },
+              {
+                "id": "394156",
+                "label": "Ezgjan Alioski",
+                "side": 1
+              },
+              {
+                "id": "396202",
+                "label": "D. Babunski",
+                "side": 1
+              },
+              {
+                "id": "396274",
+                "label": "B. Demiri",
+                "side": 1
+              },
+              {
+                "id": "400370",
+                "label": "H. Ferhan",
+                "side": 1
+              },
+              {
+                "id": "428809",
+                "label": "G. Own",
+                "side": 1
+              },
+              {
+                "id": "500312",
+                "label": "V. Musliu",
+                "side": 1
+              },
+              {
+                "id": "584898",
+                "label": "Daniel Avramovski",
+                "side": 1
+              },
+              {
+                "id": "594086",
+                "label": "L. Qamili",
+                "side": 1
+              },
+              {
+                "id": "926487",
+                "label": "Darko Churlinov",
+                "side": 1
+              },
+              {
+                "id": "1041969",
+                "label": "J. Atanasov",
+                "side": 1
+              },
+              {
+                "id": "1057340",
+                "label": "M. Ristovski",
+                "side": 1
+              },
+              {
+                "id": "1273025",
+                "label": "V. Stojanovski",
+                "side": 1
+              },
+              {
+                "id": "1413861",
+                "label": "D. Mitrovski",
+                "side": 1
+              },
+              {
+                "id": "1760003",
+                "label": "D. Tosevski",
+                "side": 1
+              },
+              {
+                "id": "1870146",
+                "label": "A. Iljazovski",
+                "side": 1
+              },
+              {
+                "id": "2806062",
+                "label": "R. Jankov",
+                "side": 1
+              },
+              {
+                "id": "2806068",
+                "label": "E. Bejtulai",
+                "side": 1
+              },
+              {
+                "id": "2846986",
+                "label": "J. Herrera",
+                "side": 1
+              },
+              {
+                "id": "3035705",
+                "label": "Bojan Miovski",
+                "side": 1
+              },
+              {
+                "id": "3299249",
+                "label": "T. Todoroski",
+                "side": 1
+              },
+              {
+                "id": "3872131",
+                "label": "K. Trapanovski",
+                "side": 1
+              },
+              {
+                "id": "4105368",
+                "label": "S. Emini",
+                "side": 1
+              },
+              {
+                "id": "5040157",
+                "label": "Jovan Manev",
+                "side": 1
+              },
+              {
+                "id": "5312885",
+                "label": "Isnik Alimi",
+                "side": 1
+              },
+              {
+                "id": "5616711",
+                "label": "Nikola Serafimov",
+                "side": 1
+              },
+              {
+                "id": "5863396",
+                "label": "Danny Musovski",
+                "side": 1
+              },
+              {
+                "id": "5966987",
+                "label": "Eljif Elmas",
+                "side": 1
+              },
+              {
+                "id": "5966996",
+                "label": "Agon Elezi",
+                "side": 1
+              },
+              {
+                "id": "6005951",
+                "label": "Bojan Dimoski",
+                "side": 1
+              },
+              {
+                "id": "6225918",
+                "label": "Agon Elezi",
+                "side": 1
+              },
+              {
+                "id": "6399058",
+                "label": "Iliev, Dejan",
+                "side": 1
+              },
+              {
+                "id": "6410887",
+                "label": "Stojchevski, Andrej",
+                "side": 1
+              },
+              {
+                "id": "6468203",
+                "label": "Mladenovski, Mario",
+                "side": 1
+              },
+              {
+                "id": "6471014",
+                "label": "Maleski, Hristijan",
+                "side": 1
+              },
+              {
+                "id": "6471065",
+                "label": "Omeragikj, Azer",
+                "side": 1
+              },
+              {
+                "id": "6471072",
+                "label": "Taleski, Davor",
+                "side": 1
+              },
+              {
+                "id": "6471082",
+                "label": "Anes Meljichi",
+                "side": 1
+              },
+              {
+                "id": "6471140",
+                "label": "Aleksovski, Igor",
+                "side": 1
+              },
+              {
+                "id": "6471147",
+                "label": "Alomerovic, Sabahudin",
+                "side": 1
+              },
+              {
+                "id": "6471166",
+                "label": "Angjeleski, Darko",
+                "side": 1
+              },
+              {
+                "id": "6471182",
+                "label": "Djekov, Gjorge",
+                "side": 1
+              },
+              {
+                "id": "6471201",
+                "label": "Dodev, Darko",
+                "side": 1
+              },
+              {
+                "id": "6728637",
+                "label": "No Goalscorer",
+                "side": 1
+              },
+              {
+                "id": "7044239",
+                "label": "Imran Fetai",
+                "side": 1
+              },
+              {
+                "id": "7419702",
+                "label": "Jankulov, Georgije",
+                "side": 1
+              },
+              {
+                "id": "7444275",
+                "label": "Din Alomerovic",
+                "side": 1
+              },
+              {
+                "id": "7514598",
+                "label": "Matej Gashtarov",
+                "side": 1
+              },
+              {
+                "id": "7536386",
+                "label": "Stefan Despotovski",
+                "side": 1
+              },
+              {
+                "id": "7536387",
+                "label": "Bojan Ilievski",
+                "side": 1
+              },
+              {
+                "id": "7733703",
+                "label": "Reshat Ramadani",
+                "side": 1
+              },
+              {
+                "id": "8204767",
+                "label": "Ljupcho Doriev",
+                "side": 1
+              },
+              {
+                "id": "8365444",
+                "label": "Elmin Rastoder",
+                "side": 1
+              },
+              {
+                "id": "8621682",
+                "label": "D. Taleski",
+                "side": 1
+              },
+              {
+                "id": "8621683",
+                "label": "H. Maleski",
+                "side": 1
+              },
+              {
+                "id": "8621684",
+                "label": "A. Omeragikj",
+                "side": 1
+              },
+              {
+                "id": "8621685",
+                "label": "G. Dzhekov",
+                "side": 1
+              },
+              {
+                "id": "107175",
+                "label": "Xherdan Shaqiri",
+                "side": 2
+              },
+              {
+                "id": "118556",
+                "label": "Steven Zuber",
+                "side": 2
+              },
+              {
+                "id": "128549",
+                "label": "Remo Freuler",
+                "side": 2
+              },
+              {
+                "id": "141022",
+                "label": "Ricardo Rodriguez",
+                "side": 2
+              },
+              {
+                "id": "142311",
+                "label": "Granit Xhaka",
+                "side": 2
+              },
+              {
+                "id": "221176",
+                "label": "Renato Steffen",
+                "side": 2
+              },
+              {
+                "id": "224194",
+                "label": "Fabian Schär",
+                "side": 2
+              },
+              {
+                "id": "240635",
+                "label": "Gregory Wuthrich",
+                "side": 2
+              },
+              {
+                "id": "241740",
+                "label": "Silvan Widmer",
+                "side": 2
+              },
+              {
+                "id": "244845",
+                "label": "Breel Embolo",
+                "side": 2
+              },
+              {
+                "id": "261258",
+                "label": "Nico Elvedi",
+                "side": 2
+              },
+              {
+                "id": "265824",
+                "label": "Y. Mvogo",
+                "side": 2
+              },
+              {
+                "id": "316066",
+                "label": "D. Zakaria",
+                "side": 2
+              },
+              {
+                "id": "316440",
+                "label": "Manuel Akanji",
+                "side": 2
+              },
+              {
+                "id": "320828",
+                "label": "Cedric Zesiger",
+                "side": 2
+              },
+              {
+                "id": "322883",
+                "label": "Djibril Sow",
+                "side": 2
+              },
+              {
+                "id": "383147",
+                "label": "Christian Fassnacht",
+                "side": 2
+              },
+              {
+                "id": "416627",
+                "label": "Cedric Itten",
+                "side": 2
+              },
+              {
+                "id": "426369",
+                "label": "Michel Aebischer",
+                "side": 2
+              },
+              {
+                "id": "470390",
+                "label": "Gregor Kobel",
+                "side": 2
+              },
+              {
+                "id": "487759",
+                "label": "Ruben Vargas",
+                "side": 2
+              },
+              {
+                "id": "589869",
+                "label": "B. Omeragic",
+                "side": 2
+              },
+              {
+                "id": "593235",
+                "label": "Noah Okafor",
+                "side": 2
+              },
+              {
+                "id": "593243",
+                "label": "Miro Muheim",
+                "side": 2
+              },
+              {
+                "id": "1025656",
+                "label": "Simon Sohm",
+                "side": 2
+              },
+              {
+                "id": "1025682",
+                "label": "V. Sierro",
+                "side": 2
+              },
+              {
+                "id": "1945222",
+                "label": "Dan Ndoye",
+                "side": 2
+              },
+              {
+                "id": "2051958",
+                "label": "Isaac Schmidt",
+                "side": 2
+              },
+              {
+                "id": "2115402",
+                "label": "Andi Zeqiri",
+                "side": 2
+              },
+              {
+                "id": "2742919",
+                "label": "Zeki Amdouni",
+                "side": 2
+              },
+              {
+                "id": "2817818",
+                "label": "Aurele Amenda",
+                "side": 2
+              },
+              {
+                "id": "2817824",
+                "label": "Joel Monteiro",
+                "side": 2
+              },
+              {
+                "id": "3042979",
+                "label": "Alvyn Sanches",
+                "side": 2
+              },
+              {
+                "id": "4627091",
+                "label": "Ardon Jashari",
+                "side": 2
+              },
+              {
+                "id": "4783737",
+                "label": "Luca Jaquez",
+                "side": 2
+              },
+              {
+                "id": "5291653",
+                "label": "Fabian Rieder",
+                "side": 2
+              },
+              {
+                "id": "5407687",
+                "label": "Marvin Keller",
+                "side": 2
+              },
+              {
+                "id": "5594744",
+                "label": "Leonidas Stergiou",
+                "side": 2
+              },
+              {
+                "id": "5723116",
+                "label": "Yann Sommer",
+                "side": 2
+              },
+              {
+                "id": "5894085",
+                "label": "Adrian Bajrami",
+                "side": 2
+              },
+              {
+                "id": "6037367",
+                "label": "Kwadwo Duah",
+                "side": 2
+              },
+              {
+                "id": "6195660",
+                "label": "Zachary Athekame",
+                "side": 2
+              },
+              {
+                "id": "6312029",
+                "label": "Johan Manzambi",
+                "side": 2
+              },
+              {
+                "id": "6605069",
+                "label": "Eray Comert",
+                "side": 2
+              },
+              {
+                "id": "7765233",
+                "label": "Sascha Britschgi",
+                "side": 2
+              },
+              {
+                "id": "7921333",
+                "label": "Winsley Boteli",
+                "side": 2
+              }
+            ],
+            "marketCount": 3,
+            "phase": "Prematch",
+            "hasLiveStreaming": false,
+            "hasLiveStatistics": true,
+            "hasLiveVisual": true,
+            "hasLivePlayerStats": false,
+            "startDate": "2026-09-26T18:45:00Z",
+            "popularityOrder": 26,
+            "eventType": "Fixture",
+            "categoryTrackingLabel": "football",
+            "competitionTrackingLabel": "uefa-nations-league",
+            "regionTrackingLabel": "nations-league",
+            "prematchStatisticsProviders": [
+              "Score24",
+              "BetRadar"
+            ],
+            "actualSubCategoryId": 15728,
+            "marketCountUnique": 0,
+            "neutralPath": "football/nations-league/uefa-nations-league/north-macedonia-switzerland",
+            "isFullScreenEnabled": false,
+            "tags": {
+              "sb-tg-alpha": {
+                "name": "sb-tg-alpha",
+                "attributes": {
+                  "tg-routing": "sb-tg-alpha=1;"
+                }
+              },
+              "bc_bb_available": {
+                "name": "bc_bb_available",
+                "attributes": {}
+              },
+              "sb-traded-prematch": {
+                "name": "sb-traded-prematch",
+                "attributes": {}
+              }
+            },
+            "id": "f-F_WFP_4ggE-PLb0dXNcXsw",
+            "label": "Macedonia del Norte - Suiza",
+            "isHomeTeam": false
+          }
+        ],
+        "markets": [
+          {
+            "eventId": "f-F_WFP_4ggE-PLb0dXNcXsw",
+            "marketTemplateId": "MWOU",
+            "lineValue": "3.5",
+            "lineValueRaw": 3.5,
+            "status": "Open",
+            "validationRule": {
+              "code": 1,
+              "value": "NotWithinSameEvent"
+            },
+            "deadline": "2026-09-26T18:45:00Z",
+            "isCashoutAvailable": true,
+            "columnLayout": 3,
+            "helpText": "",
+            "isGroupableByMarketTemplate": false,
+            "betGroupDescription": "",
+            "marketTemplateTags": [
+              7,
+              8,
+              15,
+              46,
+              142,
+              137,
+              54
+            ],
+            "marketSpecifics": {
+              "groupSortBy": [],
+              "groupLabels": {},
+              "groupTranslations": {}
+            },
+            "sortOrder": 3800,
+            "marketFriendlyName": "Ganador del partido + Total de goles 3.5",
+            "marketVersion": 2,
+            "betBuilderAvailability": {
+              "state": 0,
+              "data": {},
+              "isHomeTeam": false
+            },
+            "originSelections": {},
+            "id": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "label": "Ganador del partido + Total de goles 3.5",
+            "isHomeTeam": false
+          }
+        ],
+        "marketSelections": [
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 51.0,
+            "alternateLabel": "Macedonia del Norte y Más de",
+            "status": "Open",
+            "sortOrder": 1,
+            "participantId": "3316",
+            "participantLabel": "Macedonia del Norte y Más de",
+            "selectionTemplateId": "HOMEOVER",
+            "marketSelectionPriceFormats": {
+              "1": "51.00"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-homeover",
+            "label": "Macedonia del Norte y Más de",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 21.0,
+            "alternateLabel": "Empate y Más de",
+            "status": "Open",
+            "sortOrder": 2,
+            "participantLabel": "Empate y Más de",
+            "selectionTemplateId": "DRAWOVER",
+            "marketSelectionPriceFormats": {
+              "1": "21.00"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-drawover",
+            "label": "Empate y Más de",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 3.6,
+            "alternateLabel": "Suiza y Más de",
+            "status": "Open",
+            "sortOrder": 3,
+            "participantId": "1583",
+            "participantLabel": "Suiza y Más de",
+            "selectionTemplateId": "AWAYOVER",
+            "marketSelectionPriceFormats": {
+              "1": "3.60"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-awayover",
+            "label": "Suiza y Más de",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 10.0,
+            "alternateLabel": "Macedonia del Norte y Menos de",
+            "status": "Open",
+            "sortOrder": 4,
+            "participantId": "3316",
+            "participantLabel": "Macedonia del Norte y Menos de",
+            "selectionTemplateId": "HOMEUNDER",
+            "marketSelectionPriceFormats": {
+              "1": "10.00"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-homeunder",
+            "label": "Macedonia del Norte y Menos de",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 5.0,
+            "alternateLabel": "Empate y Menos de",
+            "status": "Open",
+            "sortOrder": 5,
+            "participantLabel": "Empate y Menos de",
+            "selectionTemplateId": "DRAWUNDER",
+            "marketSelectionPriceFormats": {
+              "1": "5.00"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-drawunder",
+            "label": "Empate y Menos de",
+            "isHomeTeam": false
+          },
+          {
+            "marketId": "m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5",
+            "odds": 2.0,
+            "alternateLabel": "Suiza y Menos de",
+            "status": "Open",
+            "sortOrder": 6,
+            "participantId": "1583",
+            "participantLabel": "Suiza y Menos de",
+            "selectionTemplateId": "AWAYUNDER",
+            "marketSelectionPriceFormats": {
+              "1": "2.00"
+            },
+            "selectionSpecifics": {
+              "values": {}
+            },
+            "id": "s-m-f-F_WFP_4ggE-PLb0dXNcXsw-MWOU-3.5-awayunder",
+            "label": "Suiza y Menos de",
+            "isHomeTeam": false
+          }
+        ]
+      }
+    }
+  }
+]

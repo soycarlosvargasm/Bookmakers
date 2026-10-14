@@ -1,0 +1,40 @@
+{
+  "name": "personal-sportsbook-collector-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Autonomous core for a private sportsbook market collector.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "migrations": "node scripts/migrate.mjs",
+    "cli": "tsx src/cli.ts",
+    "engine": "tsx src/engine/main.ts",
+    "engine:batch": "tsx src/batch.ts",
+    "engine:schedule": "tsx src/scheduler/main.ts",
+    "snapshots:load": "tsx src/snapshots/loader.ts",
+    "matching:reconcile": "tsx src/matching/main.ts",
+    "changes:show": "tsx src/changes/show.ts",
+    "ui": "tsx src/ui/main.ts",
+    "start": "node dist/src/main.js",
+    "dev": "tsx watch src/main.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.116.0",
+    "fastify": "^5.2.1",
+    "pg": "^8.13.1",
+    "playwright": "^1.51.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

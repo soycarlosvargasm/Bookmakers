@@ -1,0 +1,89 @@
+-- Matching is an additive layer over the normalized projections. RAW payloads
+-- and their append-only observation history are intentionally not referenced.
+ALTER TABLE event_matches DROP CONSTRAINT IF EXISTS event_matches_status_check;
+ALTER TABLE event_match_decisions DROP CONSTRAINT IF EXISTS event_match_decisions_status_check;
+ALTER TABLE market_matches DROP CONSTRAINT IF EXISTS market_matches_status_check;
+ALTER TABLE market_match_decisions DROP CONSTRAINT IF EXISTS market_match_decisions_status_check;
+ALTER TABLE selection_matches DROP CONSTRAINT IF EXISTS selection_matches_status_check;
+ALTER TABLE selection_match_decisions DROP CONSTRAINT IF EXISTS selection_match_decisions_status_check;
+
+ALTER TABLE event_matches ADD CONSTRAINT event_matches_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+ALTER TABLE event_match_decisions ADD CONSTRAINT event_match_decisions_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+ALTER TABLE market_matches ADD CONSTRAINT market_matches_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+ALTER TABLE market_match_decisions ADD CONSTRAINT market_match_decisions_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+ALTER TABLE selection_matches ADD CONSTRAINT selection_matches_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+ALTER TABLE selection_match_decisions ADD CONSTRAINT selection_match_decisions_status_check CHECK (status IN ('MATCHED','AMBIGUOUS','UNMATCHED','CONFLICT'));
+
+-- A semantic market label alias is global to the adapter namespace rather than
+-- to a single event. It is only written from a corroborated cross-source match.
+CREATE TABLE IF NOT EXISTS market_aliases (
+  source_namespace TEXT NOT NULL,
+  alias_key TEXT NOT NULL,
+  alias_name TEXT NOT NULL,
+  family TEXT NOT NULL,
+  type_key TEXT NOT NULL,
+  subject_kind TEXT NOT NULL,
+  period_key TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  PRIMARY KEY (source_namespace, alias_key)
+);
+
+-- New normalized projections enqueue only their own event. The matcher expands
+-- that event to its existing canonical component, so routine polling does not
+-- re-evaluate the historical selection corpus.
+CREATE TABLE IF NOT EXISTS matching_work_queue (
+  event_id BIGINT PRIMARY KEY REFERENCES events(id) ON DELETE CASCADE,
+  enqueued_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  reason TEXT NOT NULL
+);
+
+CREATE OR REPLACE FUNCTION enqueue_matching_event() RETURNS trigger LANGUAGE plpgsql AS $$
+BEGIN
+  INSERT INTO matching_work_queue(event_id,enqueued_at,reason)
+  VALUES (NEW.id,now(),TG_TABLE_NAME)
+  ON CONFLICT (event_id) DO UPDATE SET enqueued_at=EXCLUDED.enqueued_at, reason=EXCLUDED.reason;
+  RETURN NEW;
+END;
+$$;
+
+CREATE OR REPLACE FUNCTION enqueue_matching_market_event() RETURNS trigger LANGUAGE plpgsql AS $$
+BEGIN
+  INSERT INTO matching_work_queue(event_id,enqueued_at,reason)
+  VALUES (NEW.event_id,now(),TG_TABLE_NAME)
+  ON CONFLICT (event_id) DO UPDATE SET enqueued_at=EXCLUDED.enqueued_at, reason=EXCLUDED.reason;
+  RETURN NEW;
+END;
+$$;
+
+CREATE OR REPLACE FUNCTION enqueue_matching_selection_event() RETURNS trigger LANGUAGE plpgsql AS $$
+DECLARE source_event_id BIGINT;
+BEGIN
+  SELECT event_id INTO source_event_id FROM markets WHERE id=NEW.market_id;
+  IF source_event_id IS NOT NULL THEN
+    INSERT INTO matching_work_queue(event_id,enqueued_at,reason)
+    VALUES (source_event_id,now(),TG_TABLE_NAME)
+    ON CONFLICT (event_id) DO UPDATE SET enqueued_at=EXCLUDED.enqueued_at, reason=EXCLUDED.reason;
+  END IF;
+  RETURN NEW;
+END;
+$$;
+
+DROP TRIGGER IF EXISTS matching_events_enqueue ON events;
+CREATE TRIGGER matching_events_enqueue AFTER INSERT OR UPDATE OF sport,competition,event_name,participants,home_participant,away_participant,event_start_time,event_status ON events
+FOR EACH ROW EXECUTE FUNCTION enqueue_matching_event();
+DROP TRIGGER IF EXISTS matching_markets_enqueue ON markets;
+CREATE TRIGGER matching_markets_enqueue AFTER INSERT OR UPDATE OF market_type,market_period,participant_player,qualifiers ON markets
+FOR EACH ROW EXECUTE FUNCTION enqueue_matching_market_event();
+DROP TRIGGER IF EXISTS matching_selections_enqueue ON selections;
+CREATE TRIGGER matching_selections_enqueue AFTER INSERT OR UPDATE OF selection_name,line,qualifiers ON selections
+FOR EACH ROW EXECUTE FUNCTION enqueue_matching_selection_event();
+
+CREATE INDEX IF NOT EXISTS matching_work_queue_enqueued_idx ON matching_work_queue(enqueued_at);
+CREATE INDEX IF NOT EXISTS participant_aliases_lookup_idx ON participant_aliases(sport_key,alias_key);
+CREATE INDEX IF NOT EXISTS competition_aliases_lookup_idx ON competition_aliases(sport_key,alias_key);
+
+-- First deployment must reconcile the existing corpus once; future collector
+-- writes are captured by the triggers above.
+INSERT INTO matching_work_queue(event_id,enqueued_at,reason)
+SELECT id,now(),'initial_backfill' FROM events
+ON CONFLICT (event_id) DO NOTHING;

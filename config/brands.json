@@ -1,0 +1,690 @@
+{
+  "brands": [
+    {
+      "id": "bestfightodds",
+      "name": "BestFightOdds",
+      "sport": "mma",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.bestfightodds.com/",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "fightodds",
+      "name": "FightOdds",
+      "sport": "mma",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://fightodds.io/odds",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pinnacle",
+      "name": "Pinnacle",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.pinnacle.com/en",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "betsson",
+      "name": "Betsson",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "Mexico",
+          "url": "https://www.betsson.mx/apuestas-deportivas",
+          "vpn": "mx",
+          "verified": true
+        },
+        {
+          "code": "pe",
+          "name": "Peru",
+          "url": "https://www.betsson.pe/apuestas-deportivas",
+          "vpn": "pe",
+          "verified": false
+        },
+        {
+          "code": "co",
+          "name": "Colombia",
+          "url": "https://www.betsson.com.co/apuestas-deportivas",
+          "vpn": "co",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "betano",
+      "name": "Betano",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "Mexico",
+          "url": "https://www.betano.mx/",
+          "vpn": "mx",
+          "verified": false
+        },
+        {
+          "code": "pe",
+          "name": "Peru",
+          "url": "https://www.betano.pe/",
+          "vpn": "pe",
+          "verified": false
+        },
+        {
+          "code": "co",
+          "name": "Colombia",
+          "url": "https://www.betano.com.co/",
+          "vpn": "co",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "codere",
+      "name": "Codere",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "México",
+          "url": "https://www.codere.mx/sport",
+          "vpn": "mx",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "betway",
+      "name": "Betway",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "México",
+          "url": "https://betway.mx/mx/es-mx/sports",
+          "vpn": "mx",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rushbet",
+      "name": "Rushbet MX",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "México",
+          "url": "https://www.rushbet.mx/?page=sportsbook#filter/football/mexico/liga_mx",
+          "vpn": "mx",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "winpot",
+      "name": "Winpot",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "México",
+          "url": "https://www.winpot.mx/deportes",
+          "vpn": "mx",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "playdoit",
+      "name": "Playdoit",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "mx",
+          "name": "México",
+          "url": "https://www.playdoit.mx/",
+          "vpn": "mx",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "palmsbet",
+      "name": "PalmsBet",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "pe",
+          "name": "Perú",
+          "url": "https://www.palmsbet.pe/es/deportes/",
+          "vpn": "pe",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "multibet",
+      "name": "Multibet",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "br",
+          "name": "Brasil",
+          "url": "https://multi.bet.br/pb/sports#/overview",
+          "vpn": "br",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "apuestatotal",
+      "name": "Apuesta Total",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "pe",
+          "name": "Perú",
+          "url": "https://www.apuestatotal.com/apuestas-deportivas/",
+          "vpn": "pe",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "betplay",
+      "name": "BetPlay",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "co",
+          "name": "Colombia",
+          "url": "https://betplay.com.co/apuestas",
+          "vpn": "co",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rushbet-co",
+      "name": "Rushbet CO",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "co",
+          "name": "Colombia",
+          "url": "https://www.rushbet.co/?page=sportsbook",
+          "vpn": "co",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "retabet-pe",
+      "name": "Retabet Perú",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "pe",
+          "name": "Perú",
+          "url": "https://www.retabet.pe/",
+          "vpn": "pe",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "kto",
+      "name": "KTO",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "br",
+          "name": "Brasil",
+          "url": "https://www.kto.bet.br/apostas",
+          "vpn": "br",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "brasildasorte",
+      "name": "Brasil da Sorte",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "br",
+          "name": "Brasil",
+          "url": "https://brasildasorte.bet.br/sports/Overview",
+          "vpn": "br",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "1xbet",
+      "name": "1xBet",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "ke",
+          "name": "Kenia",
+          "url": "https://1xbet.co.ke/en",
+          "vpn": "ke",
+          "verified": true
+        },
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://1xbet.com/en",
+          "vpn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "bet9ja",
+      "name": "Bet9ja Nigeria",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "ng",
+          "name": "Nigeria",
+          "url": "https://sports.bet9ja.com/",
+          "vpn": "ng",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "10cric",
+      "name": "10cric India",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "in",
+          "name": "India",
+          "url": "https://www.10cric2026.com/",
+          "vpn": "in",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "22bet",
+      "name": "22bet",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://22match.com/en",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "melbet",
+      "name": "Melbet",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://melbet.com/en",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "betwinner",
+      "name": "Betwinner",
+      "sport": "multi",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://betwinner.com/en",
+          "vpn": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "bethero",
+      "name": "Bet Hero",
+      "sport": "football",
+      "note": "Comparador global de ligas. Captura automática pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://betherosports.com/odds/soccer",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "oddsportal",
+      "name": "OddsPortal",
+      "sport": "football",
+      "note": "Fútbol global, con ligas de Inglaterra, Escocia, Gales e Irlanda del Norte. La portada muestra máximos entre casas; extracción automática pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.oddsportal.com/football/",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "houdini",
+      "name": "Houdini Predictions",
+      "sport": "football",
+      "note": "Fútbol de múltiples países. Casa de origen no identificada; captura automática pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://houdinipredictions.com/soccer-odds",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "soccerbase",
+      "name": "Soccerbase",
+      "sport": "football",
+      "note": "Calendario y resultados. Disponibilidad de cuotas pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.soccerbase.com/matches/home.sd",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "rotowire",
+      "name": "RotoWire Soccer",
+      "sport": "football",
+      "note": "EPL, MLS, Bundesliga, Liga MX y otras ligas. Disponibilidad de cuotas pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.rotowire.com/betting/soccer/",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "betexplorer",
+      "name": "BetExplorer",
+      "sport": "football",
+      "note": "Fútbol global, con ligas de Inglaterra, Escocia, Gales e Irlanda del Norte. Extracción automática pendiente de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.betexplorer.com/football/",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "oddspedia",
+      "name": "Oddspedia",
+      "sport": "football",
+      "note": "Comparador de ligas internacionales. Acceso y captura automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://oddspedia.com/football/odds",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "oddschecker",
+      "name": "Oddschecker",
+      "sport": "football",
+      "note": "Comparador de fútbol internacional. Acceso y captura automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.oddschecker.com/football",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "covers",
+      "name": "Covers",
+      "sport": "multi",
+      "note": "Comparador de deportes norteamericanos. Acceso y captura automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "global",
+          "name": "Global",
+          "url": "https://www.covers.com/sport/odds",
+          "vpn": "required",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "betfair",
+      "name": "Betfair Sportsbook",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://www.betfair.com/betting/football/ac-1",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "paddypower",
+      "name": "Paddy Power",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://www.paddypower.com/football",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "skybet",
+      "name": "Sky Bet",
+      "sport": "multi",
+      "note": "Fuente UK registrada. Chrome Renzo mostró una comprobación de seguridad; acceso y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://skybet.com/football/s-1",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "williamhill",
+      "name": "William Hill",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://sports.williamhill.com/betting/en-gb",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "ladbrokes",
+      "name": "Ladbrokes",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://sports.ladbrokes.com/sport/football",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "coral",
+      "name": "Coral",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://sports.coral.co.uk/sport/football/matches",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "betfred",
+      "name": "Betfred",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://www.betfred.com/sports/football",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "betvictor",
+      "name": "BetVictor",
+      "sport": "multi",
+      "note": "Fuente UK registrada; acceso con VPN UK y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "uk",
+          "name": "Reino Unido",
+          "url": "https://www.betvictor.com/en-gb/sports/240",
+          "vpn": "uk",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "1xbet-in",
+      "name": "1xBet India",
+      "sport": "multi",
+      "note": "Fuente India registrada. Chrome Renzo redirigió a /en/block; acceso y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "in",
+          "name": "India",
+          "url": "https://indian.1xbet.com/en/line",
+          "vpn": "in",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "dafabet",
+      "name": "Dafabet India",
+      "sport": "multi",
+      "note": "Sportsbook India publicado por Dafabet. Acceso y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "in",
+          "name": "India",
+          "url": "https://www.dafabet.com/in/sports-df/sports",
+          "vpn": "in",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "fun88",
+      "name": "FUN88 India",
+      "sport": "multi",
+      "note": "Enlace India publicado por FUN88; redirigió a fun88ind.net con error 403 en Chrome Renzo. Acceso y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "in",
+          "name": "India",
+          "url": "https://link.fun88-india.com/",
+          "vpn": "in",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "4rabet",
+      "name": "4Rabet India",
+      "sport": "multi",
+      "note": "Fuente dirigida a India; el dominio redirige a 4rabet-web.com. Acceso local y extracción automática pendientes de validar.",
+      "regions": [
+        {
+          "code": "in",
+          "name": "India",
+          "url": "https://4rabet.com/",
+          "vpn": "in",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

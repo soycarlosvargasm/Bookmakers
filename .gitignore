@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+.sessions/
+playwright/.auth/
+*.log
+
+
+.audit/
+.engine/
+
+# Bulk media is local/object-storage data, not source code.
+/data/logos/inbox/
+/data/logos/assets/
+/data/logos/out/
+/data/logos/entities.csv
+/data/logos/*-downloaded.csv
+/data/logos/api-football.csv
+
+# Keep machine-local scratch files and Supabase CLI credentials out of Git.
+.tmp/
+/supabase/.temp/
+*.DS_Store
